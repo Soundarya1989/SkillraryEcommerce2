@@ -22,6 +22,7 @@ public class Assignment_Amazon {
 		   driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		   //Explicit wait
 		   driver.get("https://www.amazon.in/");
+		   String parent=driver.getWindowHandles();
 		   driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("mobiles");
 		   driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 		  
@@ -31,18 +32,7 @@ public class Assignment_Amazon {
         
  
 		   
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+}
 	
 	
 	
