@@ -33,6 +33,11 @@ public class Scrolldown {
 		   js.executeScript("arguments[0].scrollIntoView();",career);
 		   career.click();
 		   
+		   
+		   
+		   
+		   
+		   
 	}
 
 }

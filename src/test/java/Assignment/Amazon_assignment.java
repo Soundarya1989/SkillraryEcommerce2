@@ -1,5 +1,4 @@
-package Actions;
-
+package Assignment;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.Set;
@@ -12,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.server.handler.ExecuteScript;
-public class Assignment_Amazon {
+public class Amazon_assignment {
 
 	public static void main(String[] args) throws Throwable
 
@@ -25,7 +24,7 @@ public class Assignment_Amazon {
 		   driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		   //Explicit wait
 		   driver.get("https://www.amazon.in/");
-		   String parent=driver.getWindowHandle();
+		   //String parent=driver.getWindowHandle();
 		   
 		   driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("mobiles");
 		   driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
@@ -49,11 +48,4 @@ public class Assignment_Amazon {
  
 		   
 }
-	
-	
-	
-	
-	
-	
-	
 }
